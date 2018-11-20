@@ -1,0 +1,33 @@
+﻿<Window x:Class="WpfMySQL.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfMySQL"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800" Loaded="Window_Loaded" Closed="Window_Closed">
+    <Grid>
+        <Label Content="选中值为:" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="69,0,0,323"/>
+        <Label Name="label" Content="null" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="154,71,0,0"/>
+        <Label Content="修改为" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="69,139,0,0"/>
+        <TextBox Name="textBox1" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50" Margin="154,139,0,0" IsReadOnly="True"/>
+        <Button Content="确定" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="69,224,0,0" Click="Button_Click"/>
+        <TextBox Name="textBox2" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50" Margin="244,139,0,0"/>
+        <TextBox Name="textBox3" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50" Margin="328,139,0,0"/>
+        <TextBox Name="textBox4" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50" Margin="411,139,0,0"/>
+        <TextBox Name="textBox5" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50" Margin="501,139,0,0"/>
+        <TextBox Name="textBox6" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50" Margin="577,139,0,0"/>
+        <Label x:Name="label_Copy" Content="null" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="244,71,0,0"/>
+        <Label x:Name="label_Copy1" Content="null" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="328,71,0,0"/>
+        <Label x:Name="label_Copy2" Content="null" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="411,71,0,0"/>
+        <Label x:Name="label_Copy3" Content="null" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="501,71,0,0"/>
+        <Label x:Name="label_Copy4" Content="null" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="577,71,0,0"/>
+        <Label x:Name="label_Copy5" Content="BookID" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="154,40,0,0"/>
+        <Label x:Name="label_Copy6" Content="BookName" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="244,40,0,0"/>
+        <Label x:Name="label_Copy7" Content="AuFstN" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="328,40,0,0"/>
+        <Label x:Name="label_Copy8" Content="AuLstN" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="411,40,0,0"/>
+        <Label x:Name="label_Copy9" Content="Publish" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="501,40,0,0"/>
+        <Label x:Name="label_Copy10" Content="Pirce" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="577,40,0,0"/>
+
+    </Grid>
+</Window>
